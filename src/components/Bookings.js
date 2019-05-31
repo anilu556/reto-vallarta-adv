@@ -50,23 +50,23 @@ class Bookings extends React.Component {
         console.log(this.state)
     }
 
-    // createPax(e){
-    //     e.preventDefault();
+    createPax(e){
+        e.preventDefault();
 
-    //     this.setState({
-    //         pax: this.state.pax.concat([{name: e.target.pax.value}])
-    //     });
-    //     console.log(this.state)
-    // }
+        this.setState({
+            pax: this.state.pax.concat([{name: e.target.pax.value}])
+        });
+        console.log(this.state)
+    }
 
-    // createPrecio(e){
-    //     e.preventDefault();
+    createPrecio(e){
+        e.preventDefault();
 
-    //     this.setState({
-    //         precio: this.state.precio.concat([{name: e.target.precio.value}])
-    //     });
-    //     console.log(this.state)
-    // }
+        this.setState({
+            precio: this.state.precio.concat([{name: e.target.precio.value}])
+        });
+        console.log(this.state)
+    }
 
     render (){
     //    console.log(this.props.match.params)
