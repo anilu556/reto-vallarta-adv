@@ -1,0 +1,220 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.user{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar{
+    background: #2E7DB5;
+    background: -webkit-linear-gradient(to left, #2E7DB5, #164580, #164580, #2E7DB5); 
+    background: linear-gradient(to left, #2E7DB5, #164580, #164580, #2E7DB5);
+    height: 90px;
+}
+.logo-appbar{
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.login-body{
+    background: url(images/fondobody.png);  
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+}
+
+.login-form{
+    height: 450px;
+    width: 550px;
+    border-radius: 3px;
+    margin: auto;
+    background: url(images/fondo.png);
+}
+
+.login-title{
+    color: #2E7DB5;
+    font-family: sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 1px 8px rgba(150, 150, 150, 1);
+}
+
+.form_login{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#outlined-name, #outlined-password-input{
+    color:#2E7DB5;
+}
+
+.fa-user{
+    color:white;
+    font-size: 26px;
+}
+
+.user_name{
+    color: white;
+    margin: 0 20px 0 10px;
+}
+
+.input_pax{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adding_pax{
+    width: 100%;
+}
+
+.bookings_tour{
+    background: #f9f9f9; 
+    background: -webkit-linear-gradient(to top, #fcfcfc, #f9f9f9);  
+    background: linear-gradient(to top, #fcfcfc, #f9f9f9); 
+}
+
+.adding_tours{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputs_tours{
+    width: 50%;
+}
+
+.table_tours{
+    width: 50%;
+}
+
+.pax_title{
+    color: #164580;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    text-shadow: 4px 1px 8px rgba(150, 150, 150, 1);
+    font-size: 26px;
+}
+
+.tours_title{
+    color: #164580;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    text-shadow: 4px 1px 8px rgba(150, 150, 150, 1);
+    font-size: 26px;
+}
+
+.form_pax{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.pax_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.form_tours{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-control{
+    margin-left: 10px;
+}
+
+label{
+    font-size: 18px;
+}
+
+.btn-primary{
+    background-color: #164580;
+    margin: 20px;
+}
+
+.btn-primary:hover{
+    background-color:#2E7DB5;
+}
+
+.table_tours{
+ width: 50%;
+}
+
+.table.table-striped{
+    width: 80%;
+}
+
+.bookings_finish{
+    background:  #164580;
+}
+
+.bookings_confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_confirm{
+    background-color: #ff6e00;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn_confirm:hover{
+    background-color:#ffd328;
+}
+
+.total{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+#first_select{
+   
+}
+
+@media only screen and (max-width: 768px) {
+
+    .inputs_tours{
+        width: 100%;
+    }
+    
+    .input_pax{
+        width: 100%;
+    }
+
+    .table_tours{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .table.table-striped{
+        width: 100%;
+    }
+
+    .bookings_title{
+        margin: 20px;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+
+    .login-form{
+        height: 350px;
+        width: 330px;
+    }
+
+    .form_pax{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
