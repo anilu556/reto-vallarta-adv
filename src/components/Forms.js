@@ -26,23 +26,22 @@ class Fields extends React.Component {
               name: '',
               pass: ''
           }
-          this.onSubmit = this.onSubmit.bind(this)
         }
 
-    handleName(e) {
+    handleName = (e) => {
         this.setState({ 
             name: e.target.value
         })
     }
 
-    handlePass(e) {
+    handlePass = (e) => {
         this.setState({ 
             pass: e.target.value
         })
     }
 
 
-    onSubmit(e) {
+    onSubmit = (e) => {
         e.preventDefault()
         history.push(`/bookings/${this.state.name}`); 
         console.log(this.state)
@@ -65,7 +64,7 @@ class Fields extends React.Component {
             variant="outlined"
             type= "text"
             value={this.state.name} 
-            onChange={ this.handleName.bind(this) }
+            onChange={ this.handleName}
         />
         </div>
         <div className="inputPass">
@@ -79,7 +78,7 @@ class Fields extends React.Component {
             type= "password"
             autoComplete="current-password"
             value={this.state.pass} 
-            onChange={ this.handlePass.bind(this) }
+            onChange={ this.handlePass }
         />
         </div>
         <Button type="submit" variant="contained" color="primary" className={classes.button}>

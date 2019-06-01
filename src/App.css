@@ -178,9 +178,26 @@ label{
     font-size: 28px;
 }
 
-#first_select{
-   
+.confirmation_box{
+    height: 150px;
+    width: 700px;
+    margin: 150px auto;
+    text-align: center;
+    -webkit-box-shadow: 1px 3px 11px -1px rgba(102,102,102,1);
+    -moz-box-shadow: 1px 3px 11px -1px rgba(102,102,102,1);
+    box-shadow: 1px 3px 11px -1px rgba(102,102,102,1);
 }
+
+.confirmation_text{
+    padding:20px;
+    color: #2E7DB5;
+}
+
+.confirmation_thanks{
+    color: #ff6e00;
+    font-size: 32px;
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -216,5 +233,11 @@ label{
     .form_pax{
         margin-left: 20%;
         margin-right: 20%;
+    }
+
+    .confirmation_box{
+        height: 280px;
+        width: 300px;
+        margin: 150px auto;
     }
 }

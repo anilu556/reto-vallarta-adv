@@ -14,7 +14,7 @@ class App extends React.Component {
           <Switch>
             <Route path="/" exact component={Login} />
             <Route path="/bookings/:user" component={Bookings} />
-            <Route path="/confirmation" component={Confirmation} />
+            <Route path="/confirmation/:user" component={Confirmation} />
           </Switch>
         </Router>  
       </React.Fragment> 
